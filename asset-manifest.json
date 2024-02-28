@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pizzas-magazin/static/css/main.d76af49c.css",
+    "main.js": "/pizzas-magazin/static/js/main.a976c9f5.js",
+    "index.html": "/pizzas-magazin/index.html",
+    "main.d76af49c.css.map": "/pizzas-magazin/static/css/main.d76af49c.css.map",
+    "main.a976c9f5.js.map": "/pizzas-magazin/static/js/main.a976c9f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d76af49c.css",
+    "static/js/main.a976c9f5.js"
+  ]
+}
