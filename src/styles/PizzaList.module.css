@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.header {
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  margin: 30px 0px;
+  border-radius: 30px;
+}
+.header .title {
+  padding: 0px 0px 10px 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 70px;
+  text-align: center;
+  color: rgb(211, 118, 31);
+}
+.header .basket {
+  position: absolute;
+  top: 20px;
+  right: 40%;
+  color: rgb(175, 98, 27);
+  border: none;
+  font-size: 40px;
+  background-color: transparent;
+  -webkit-transition: color 300ms ease-in;
+  transition: color 300ms ease-in;
+}
+.header .basket:hover {
+  color: rgb(233, 141, 54);
+}
+.header .shop_cart {
+  max-height: 60vh;
+  overflow-y: auto;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 0px;
+          flex: 0 1 0px;
+  position: absolute;
+  top: 100%;
+  right: 15%;
+  text-align: center;
+  margin: 10px 0;
+  padding: 20px;
+  max-width: 500px;
+  background-color: rgba(254, 243, 228, 0.8);
+  z-index: 1;
+  border-radius: 7px;
+  -webkit-box-shadow: 7px 9px 14px #000;
+          box-shadow: 7px 9px 14px #000;
+}
+.header .shop_cart h2 {
+  color: rgb(175, 98, 27);
+  font-size: 30px;
+  padding: 0px 0px 12px 0px;
+}
+.header .shop_cart .product_basket {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0px;
+}
+.header .shop_cart .product_basket img {
+  border-radius: 7px;
+  width: 200px;
+  margin: 10px 15px 7px 0px;
+}
+.header .shop_cart .product_basket p {
+  font-size: 19px;
+  padding: 0px 7px 0px 0px;
+  font-weight: 700;
+}
+
+.body {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+.body .container {
+  background-color: white;
+  margin: 0px 10px 35px 20px;
+  padding: 25px 0px;
+  border-radius: 5px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  border: 1px solid rgb(102, 56, 13);
+}
+.body .container img {
+  width: 400px;
+  padding: 8px 20px;
+  border-radius: 50px;
+}
+.body .container figcaption {
+  font-size: 25px;
+  color: rgb(102, 56, 13);
+}
+.body .container a {
+  color: rgb(102, 56, 13);
+}
+.body .container a:hover {
+  text-shadow: 0px 0px 8px rgb(232, 151, 74);
+}
+.body .container .price {
+  margin: 20px 10px;
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: inherit;
+}
+.body .container .push_shop {
+  margin: 20px 10px;
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.body .container .push_shop:hover {
+  color: rgb(211, 118, 31);
+  border: 2px solid rgb(211, 118, 31);
+  text-shadow: 0px 0px 9px;
+}
+.body .activePush {
+  margin: 20px 10px;
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  color: rgb(211, 118, 31);
+  border: 2px solid rgb(211, 118, 31);
+  text-shadow: 0px 0px 9px;
+}

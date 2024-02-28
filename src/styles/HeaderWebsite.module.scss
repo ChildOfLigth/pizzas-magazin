@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.header {
+  background-color: rgb(255, 176, 102);
+  font-family: 'Oswald', sans-serif;
+  h1 {
+    position: relative;
+    text-shadow: 3px 8px 3px rgb(211, 118, 31);
+    left: 90px;
+    top: 15px;
+    font-size: 40px;
+    color: #fff;
+    font-style: italic;
+  }
+}
+
+.header__content {
+  text-align: center;
+  display: flex;
+}
+
+.header__imeg {
+  img {
+    width: 500px;
+  }
+}
+
+.content {
+  line-height: 24px;
+  max-width: 800px;
+  padding: 0 60px;
+}
+
+.content__title {
+  line-height: 70px;
+  padding: 50px;
+  display: flex;
+  font-size: 70px;
+  letter-spacing: 7px;
+  color: rgb(230, 111, 0);
+  text-shadow: 1px 1px 8px;
+}
+
+.content__text {
+  line-height: 50px;
+  display: flex;
+  font-size: 48px;
+  color: white;
+}
+
+.header__number_block {
+  display: flex;
+  max-width: 500px;
+  height: 280px;
+  padding: 30px;
+  justify-content: center;
+  .block {
+    overflow: hidden;
+    box-shadow: 9px 8px 3px rgb(226, 174, 125);
+    background-color: rgb(245, 196, 151);
+    padding: 10px 40px;
+    border-radius: 10px;
+  }
+  .block__title {
+    color: rgb(230, 111, 0);
+    padding: 5px 0;
+    line-height: 40px;
+    font-size: 40px;
+    text-shadow: 0px 0px 8px;
+  }
+  .block_number_list {
+    text-align: center;
+    font-size: 28px;
+    li {
+      color: white;
+      letter-spacing: 3px;
+      line-height: 35px;
+    }
+    li:hover {
+      color: rgb(230, 111, 0);
+      text-shadow: 0px 0px 5px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}

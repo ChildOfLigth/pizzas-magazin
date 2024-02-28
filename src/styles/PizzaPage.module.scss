@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.pizza_page {
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  max-width: 1400px;
+  margin: 30px auto;
+  background-color: white;
+  border: 1px solid rgb(102, 56, 13);
+
+  .button_navigator {
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    margin: 0px 0px 0px 10px;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 7px;
+    background-color: #fff;
+    border: 1px solid rgb(102, 56, 13);
+  }
+
+  .button_navigator:hover {
+    box-shadow: 0px 0px 8px rgb(102, 56, 13);
+  }
+
+  img {
+    margin: 25px 35px;
+    width: 600px;
+    border-radius: 7px;
+  }
+
+  .pizza_info {
+    margin: 20px 10px;
+    h1 {
+      padding: 20px 0px 18px 40px;
+      font-size: 35px;
+      color: rgb(102, 56, 13);
+      font-weight: 700;
+    }
+
+    span {
+      color: rgb(102, 56, 13);
+      font-weight: 700;
+    }
+
+    h2 {
+      padding: 10px 40px 10px 40px;
+      font-size: 28px;
+      color: rgb(130, 74, 21);
+      line-height: 30px;
+    }
+
+    .data_selection {
+      display: inline-flex;
+
+      margin: 0px 0px 20px 0px;
+
+      .button_ {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px 0px 0px 10px;
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 7px;
+      }
+
+      .button_:hover {
+        border: 2px solid rgb(171, 94, 21);
+        color: rgb(171, 94, 21);
+      }
+    }
+
+    .button_active {
+      flex-direction: column;
+      justify-content: center;
+      margin: 0px 0px 0px 10px;
+      padding: 10px;
+      font-size: 20px;
+      border-radius: 7px;
+      border: none;
+      background-color: rgb(206, 117, 34);
+      color: #fff;
+    }
+  }
+}

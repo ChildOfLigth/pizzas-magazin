@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.pizza_page {
+  font-family: "Oswald", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1400px;
+  margin: 30px auto;
+  background-color: white;
+  border: 1px solid rgb(102, 56, 13);
+}
+.pizza_page .button_navigator {
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  margin: 0px 0px 0px 10px;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 7px;
+  background-color: #fff;
+  border: 1px solid rgb(102, 56, 13);
+}
+.pizza_page .button_navigator:hover {
+  -webkit-box-shadow: 0px 0px 8px rgb(102, 56, 13);
+          box-shadow: 0px 0px 8px rgb(102, 56, 13);
+}
+.pizza_page img {
+  margin: 25px 35px;
+  width: 600px;
+  border-radius: 7px;
+}
+.pizza_page .pizza_info {
+  margin: 20px 10px;
+}
+.pizza_page .pizza_info h1 {
+  padding: 20px 0px 18px 40px;
+  font-size: 35px;
+  color: rgb(102, 56, 13);
+  font-weight: 700;
+}
+.pizza_page .pizza_info span {
+  color: rgb(102, 56, 13);
+  font-weight: 700;
+}
+.pizza_page .pizza_info h2 {
+  padding: 10px 40px 10px 40px;
+  font-size: 28px;
+  color: rgb(130, 74, 21);
+  line-height: 30px;
+}
+.pizza_page .pizza_info .data_selection {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0px 0px 20px 0px;
+}
+.pizza_page .pizza_info .data_selection .button_ {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px 0px 0px 10px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 7px;
+}
+.pizza_page .pizza_info .data_selection .button_:hover {
+  border: 2px solid rgb(171, 94, 21);
+  color: rgb(171, 94, 21);
+}
+.pizza_page .pizza_info .button_active {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px 0px 0px 10px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(206, 117, 34);
+  color: #fff;
+}
